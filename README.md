@@ -14,16 +14,20 @@
 
 ## 🧠 Who We Are
 
-**ParallelIQ** is an AI infrastructure company headquartered in **San Jose, California**, building the next generation of tools and standards for deploying, operating, and optimizing AI/LLM workloads at scale.
+**ParallelIQ** is a model-aware control-plane company building the next generation of infrastructure for AI and LLM workloads.
 
-We believe the future of AI is not just about smarter models — it's about **smarter infrastructure**.
+We sit above Kubernetes and Slurm — bringing intent, policy, economics, and observability together to make GPU-native AI systems efficient, governable, and scalable.
 
-- 🏗️ **Building open standards** for AI model deployment and operations
-- 🔍 **Developing runtime introspection tools** for Kubernetes-native AI inference
-- 📚 **Publishing community-driven knowledge** on production GenAI infrastructure
-- ⚡ **Focused on GPU efficiency**, KV cache optimization, and LLM serving performance
-- 🛡️ **Championing governance and observability** for responsible AI operations
-- 🤝 **Open to collaborations** in MLOps, AI Infrastructure, and LLM tooling
+We believe the future of AI isn’t just smarter models — it’s **infrastructure that understands the models it runs**.
+
+🏗 What We Build
+
+- 📐 Open standards for **declarative AI model intent** (ModelSpec / UMIR)
+- 🧭 **Control-plane workflows** for admission, placement, and lifecycle management
+- 🔍 **Runtime introspection** tools for GPU fleets (utilization, MFU, fragmentation)
+- 💰 **Economic visibility** for GPUaaS providers (idle, stranded, underutilized GPUs)
+- ⚡ **Optimization of GPU efficiency**, KV cache behavior, and serving performance
+- 🛡 **Governance, policy enforcement, and operational guardrails** for AI systems
 
 ![Profile Views](https://komarev.com/ghpvc/?username=paralleliq&color=blueviolet&label=Profile+Views&style=flat-square)
 ---
@@ -65,7 +69,8 @@ A neutral, community-driven collection of **deployment checklists**, **infrastru
   <a href="https://www.docker.com/"><img alt="Docker" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="55" height="55"/></a>  
   <a href="https://www.linux.org/"><img alt="Linux" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="55" height="55"/></a>  
   <a href="https://git-scm.com/"><img alt="Bash" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="55" height="55"/></a>  
-  <a href="https://pytorch.org/"><img alt="PyTorch" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="55" height="55"/></a>  
+  <a href="https://pytorch.org/"><img alt="PyTorch" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="55" height="55"/></a> 
+  <a href="https://n8n.io/"><img alt="n8n" src="https://cdn.simpleicons.org/n8n" width="55" height="55"/></a>
 </p>
 
 ---
