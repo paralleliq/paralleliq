@@ -1,6 +1,6 @@
 # Welcome to ParallelIQ 👋
 ![gitartwork](gitartwork.svg)
-### 🚀 Automating AI Infrastructure with Predictive Orchestration & Compiler Intelligence
+### 🚀 Model-Aware Control Plane for GPU-Native AI Infrastructure
 
 <p align="center">
   <a href="https://paralleliq.ai"><img src="https://img.shields.io/badge/Website-paralleliq.ai-blue?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
