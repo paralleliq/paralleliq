@@ -1,5 +1,5 @@
 # Welcome to ParallelIQ 👋
-
+![gitartwork](gitartwork.svg)
 ### 🚀 Automating AI Infrastructure with Predictive Orchestration & Compiler Intelligence
 
 <p align="center">
