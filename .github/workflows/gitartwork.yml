@@ -12,5 +12,5 @@
             # Use this username's contribution graph  
             user_name: paralleliq
             # Text on contribution graph 
-            text: JASINERI
+            text: paralleliq
        - uses: jasineri/simple-push-action@v1
