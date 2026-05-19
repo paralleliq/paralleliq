@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://paralleliq.ai">
-    <img src="https://raw.githubusercontent.com/paralleliq/paralleliq/main/branding/readme-preview.png" alt="ParallelIQ — Always Watching. Never Acting Alone. The control plane your GPU fleet has been missing." width="100%" />
+    <img src="./branding/readme-preview.png" alt="ParallelIQ — Always Watching. Never Acting Alone. The control plane your GPU fleet has been missing." width="100%" />
   </a>
 </p>
 
