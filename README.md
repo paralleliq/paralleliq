@@ -36,5 +36,5 @@
 | **Headquarters** | San Francisco, California |
 
 <div align="center">
-<sub>© ParallelIQ · Building the next generation of GPU-native AI infrastructure</sub>
+<sub>© ParallelIQ · The model-aware GPU fleet optimization layer for AI infrastructure</sub>
 </div>
