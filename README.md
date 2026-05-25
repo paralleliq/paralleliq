@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://paralleliq.ai">
-    <img src="./branding/readme-preview.png" alt="ParallelIQ — Always Watching. Never Acting Alone. The control plane your GPU fleet has been missing." width="100%" />
+    <img src="./branding/readme-preview.png" alt="ParallelIQ — Your cluster is running. 20–40% of it is wasted. Your monitoring sees GPUs. It doesn't see models. The model-aware GPU fleet optimization layer for AI infrastructure." width="100%" />
   </a>
 </p>
 
