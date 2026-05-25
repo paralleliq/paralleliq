@@ -33,7 +33,7 @@
 | **Website** | [paralleliq.ai](https://paralleliq.ai) |
 | **Business inquiries** | [sam@paralleliq.ai](mailto:sam@paralleliq.ai) |
 | **Founder & CEO** | Sam Hosseini |
-| **Headquarters** | San Jose, California |
+| **Headquarters** | San Francisco, California |
 
 <div align="center">
 <sub>© ParallelIQ · Building the next generation of GPU-native AI infrastructure</sub>
