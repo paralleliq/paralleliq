@@ -20,7 +20,7 @@
 
 ## Open source
 
-- **[piqc](https://github.com/paralleliq/piqc)** — Kubernetes-native fact collector for AI clusters. Discovers vLLM deployments and extracts GPU, runtime, and serving facts into a standardized ModelSpec.
+- **[piqc](https://github.com/paralleliq/piqc)** — Kubernetes-native fact collector for AI clusters. Discovers vLLM deployments and extracts GPU, runtime, and serving facts that feed Paralleliq's optimization layer.
 - **[ModelSpec](https://github.com/paralleliq/modelspec)** — Open declarative AI model specification. Captures execution, serving, and orchestration intent in a runtime-agnostic, cloud-agnostic, machine-readable format.
 - **[piqc-knowledge-base](https://github.com/paralleliq/piqc-knowledge-base)** — Production readiness standards for GenAI. Neutral, community-driven checklists for deploying LLMs, vLLM, GPU optimization, observability, and governance.
 
