@@ -1,30 +1,36 @@
-<p align="center">
-  <a href="https://paralleliq.ai">
-    <img src="./branding/readme-preview.png" alt="ParallelIQ — Your cluster is running. 20–40% of it is wasted. Your monitoring sees GPUs. It doesn't see models. The model-aware GPU fleet optimization layer for AI infrastructure." width="100%" />
-  </a>
+# Paralleliq
+
+**Find the productive capacity already inside your GPU fleet. Recover it before you buy more.**
+
+GPU fleet efficiency and reliability for AI teams. Paralleliq finds idle GPUs, models on the wrong GPU tier, and the risk signals that turn into incidents. It shows what each affected workload costs per month, and the savings where the fix has a clear dollar figure, and keeps your team in control of every change.
+
+Research consistently reports GPU utilization below 50% ([sources](https://paralleliq.ai/gpu-waste-calculator)). Paralleliq estimates that about half of GPU capacity is wasted, and targets recovering 20–40% of that waste.
+
+<p>
+  <a href="https://paralleliq.ai/contact"><img src="https://img.shields.io/badge/Request%20Demo-22d3ee?style=for-the-badge&labelColor=04060d" alt="Request Demo" /></a>
+  <a href="https://paralleliq.ai/get-started/self-serve"><img src="https://img.shields.io/badge/Lightweight%20Scan-0c1322?style=for-the-badge&labelColor=04060d" alt="Lightweight Scan" /></a>
+  <a href="https://paralleliq.ai/gpu-waste-calculator"><img src="https://img.shields.io/badge/Estimate%20Your%20Waste-0c1322?style=for-the-badge&labelColor=04060d" alt="Estimate Your Waste" /></a>
 </p>
 
-<p align="center">
-  <a href="https://paralleliq.ai/gpu-waste-calculator"><img src="https://img.shields.io/badge/Estimate%20Your%20Waste-22d3ee?style=for-the-badge&labelColor=04060d" alt="Estimate Your Waste" /></a>
-  <a href="https://paralleliq.ai/get-started/self-serve"><img src="https://img.shields.io/badge/Scan%20Your%20Cluster%20(Free)-0c1322?style=for-the-badge&labelColor=04060d" alt="Scan Your Cluster" /></a>
-</p>
+## What it finds
 
-<p align="center">
-  <a href="https://paralleliq.ai"><img src="https://img.shields.io/badge/paralleliq.ai-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=04060d" alt="Website" /></a>
-  <a href="https://www.linkedin.com/company/paralleliq"><img src="https://img.shields.io/badge/LinkedIn-22d3ee?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=04060d" alt="LinkedIn" /></a>
-  <a href="https://x.com/paralleliq"><img src="https://img.shields.io/badge/X-22d3ee?style=for-the-badge&logo=x&logoColor=white&labelColor=04060d" alt="X" /></a>
-  <a href="https://www.crunchbase.com/organization/paralleliq"><img src="https://img.shields.io/badge/Crunchbase-22d3ee?style=for-the-badge&logo=crunchbase&logoColor=white&labelColor=04060d" alt="Crunchbase" /></a>
-</p>
+- **Idle deployments:** GPUs allocated and billing that are serving no requests.
+- **Too many replicas:** autoscaled deployments running above their floor when the week's peaks don't need it.
+- **Oversized GPUs:** models on a bigger GPU tier than their traffic needs.
+- **GPU hardware faults:** GPUs that have fallen off the bus (Xid 79), naming the node and the GPU.
+- **Dark capacity:** GPUs on your nodes that no workload has claimed.
 
----
+## How it works
+
+Paralleliq reads operational metrics from your Kubernetes cluster through an OpenTelemetry collector (vLLM on NVIDIA GPUs). It judges each workload against a week of peaks and your latency targets with deterministic rules, and recommends the fix. Today your team approves every change, and every step is recorded in an audit log.
+
+Model weights, prompts and responses never leave your environment.
 
 ## Open source
 
-- **[piqc](https://github.com/paralleliq/piqc)** — Kubernetes-native fact collector for AI clusters. Discovers vLLM deployments and extracts GPU, runtime, and serving facts into a standardized ModelSpec.
-- **[ModelSpec](https://github.com/paralleliq/modelspec)** — Open declarative AI model specification. Captures execution, serving, and orchestration intent in a runtime-agnostic, cloud-agnostic, machine-readable format.
-- **[piqc-knowledge-base](https://github.com/paralleliq/piqc-knowledge-base)** — Production readiness standards for GenAI. Neutral, community-driven checklists for deploying LLMs, vLLM, GPU optimization, observability, and governance.
-
----
+- **[piqc](https://github.com/paralleliq/piqc):** open-source GPU waste scanner for Kubernetes. Read-only, one command, a cost report in your terminal.
+- **[ModelSpec](https://github.com/paralleliq/modelspec):** open declarative AI model specification. Captures execution, serving and orchestration intent in a runtime-agnostic, cloud-agnostic, machine-readable format.
+- **[piqc-knowledge-base](https://github.com/paralleliq/piqc-knowledge-base):** production readiness standards for GenAI. Neutral, community-driven checklists for deploying LLMs, vLLM, GPU optimization, observability and governance.
 
 ## Contact
 
@@ -35,6 +41,10 @@
 | **Founder & CEO** | Sam Hosseini |
 | **Headquarters** | San Francisco, California |
 
-<div align="center">
-<sub>© ParallelIQ · The model-aware GPU fleet optimization layer for AI infrastructure</sub>
-</div>
+<p>
+  <a href="https://www.linkedin.com/company/paralleliq"><img src="https://img.shields.io/badge/LinkedIn-22d3ee?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=04060d" alt="LinkedIn" /></a>
+  <a href="https://x.com/paralleliq"><img src="https://img.shields.io/badge/X-22d3ee?style=for-the-badge&logo=x&logoColor=white&labelColor=04060d" alt="X" /></a>
+  <a href="https://www.crunchbase.com/organization/paralleliq"><img src="https://img.shields.io/badge/Crunchbase-22d3ee?style=for-the-badge&logo=crunchbase&logoColor=white&labelColor=04060d" alt="Crunchbase" /></a>
+</p>
+
+<sub>© Paralleliq · GPU fleet efficiency and reliability for AI teams</sub>
