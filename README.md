@@ -2,9 +2,9 @@
 
 **Find the productive capacity already inside your GPU fleet. Recover it before you buy more.**
 
-GPU fleet efficiency and reliability for AI teams. Paralleliq finds idle GPUs, models on the wrong GPU tier, and the risk signals that turn into incidents. It prices each finding in dollars per month and keeps your team in control of every change.
+GPU fleet efficiency and reliability for AI teams. Paralleliq finds idle GPUs, models on the wrong GPU tier, and the risk signals that turn into incidents. It shows what each affected workload costs per month, and the savings where the fix has a clear dollar figure, and keeps your team in control of every change.
 
-Research consistently reports GPU utilization below 50%. Paralleliq estimates that about half of GPU capacity is wasted, and targets recovering 20–40% of that waste.
+Research consistently reports GPU utilization below 50% ([sources](https://paralleliq.ai/gpu-waste-calculator)). Paralleliq estimates that about half of GPU capacity is wasted, and targets recovering 20–40% of that waste.
 
 <p>
   <a href="https://paralleliq.ai/contact"><img src="https://img.shields.io/badge/Request%20Demo-22d3ee?style=for-the-badge&labelColor=04060d" alt="Request Demo" /></a>
@@ -14,11 +14,11 @@ Research consistently reports GPU utilization below 50%. Paralleliq estimates th
 
 ## What it finds
 
-- **Idle deployments:** GPUs allocated and billing, with no requests for a day.
-- **Too many replicas:** more than the week's peaks need, autoscaled or fixed.
+- **Idle deployments:** GPUs allocated and billing that are serving no requests.
+- **Too many replicas:** autoscaled deployments running above their floor when the week's peaks don't need it.
 - **Oversized GPUs:** models on a bigger GPU tier than their traffic needs.
-- **GPU hardware faults:** Xid errors, naming the node and the GPU.
-- **Dark capacity:** GPUs no workload is using.
+- **GPU hardware faults:** GPUs that have fallen off the bus (Xid 79), naming the node and the GPU.
+- **Dark capacity:** GPUs on your nodes that no workload has claimed.
 
 ## How it works
 
